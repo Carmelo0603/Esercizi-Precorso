@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    display: flex;
+    margin:0;
+    height:100vh ;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+#main{
+    width: 100%;
+}
+
+    
+
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-icon{
+    padding: 2.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.side-icon p{
+    margin: 0;
+
+}
+
+.side-icon ion-icon{
+font-size: 1.5em;
+}
+
+#topbar{
+
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo{
+
+height: 50%;
+
+}
+
+#searchwrapper{
+    display: flex;
+    height: 50%;
+}
+    
+
+#topbar-icons{
+    display: flex;
+}
+
+.topbar-icon{
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+#mic-icon ion-icon{
+
+    font-size: 1.8em;
+}
+
+#mic-icon{
+    margin: 0 0.5em;
+}
+
+#search-bar{
+    padding: 0 1.6em;
+}
+
+#search-button{
+
+    padding: 0 1em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+#content {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    overflow-y: auto;
+    align-content: flex-start;
+}
+
+.sezione-completa {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.copertina {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logoepicde {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    position: relative;
+    margin-top: -25px;
+    z-index: 10;
+}
+
+.epicodelogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+.descrizioni {
+    padding: 0.8em;
+}
+
+.titolo {
+    margin: 0 0 0.4em 0;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.descrizione {
+    margin: 0;
+    font-size: 0.85em;
+    color: #606060;
+}
